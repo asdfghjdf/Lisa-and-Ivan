@@ -41,7 +41,7 @@
 <body>
 <h1>Товары</h1>
 <nav>
-    <a href="/admin/goods/">Администрация</a>
+    <a href="/admin/goods/">Зайти как администрация</a>
     <a href="p1">Товары</a>
 </nav>
 
@@ -61,10 +61,6 @@
             <td><?= $good['id'] ?></td>
             <td><?= $good['name'] ?></td>
             <td><?= $good['price'] ?></td>
-            <td><?= $good['arcticle'] ?></td>
-            <td><a href="/admin/goods/create.php">Добавить</a></td>
-            <td><a href="/admin/burgers/edit.php?id=<?= $burger['id']?>">Редактировать</a></td>
-            <td><a href="/admin/burgers/actions/delete.php?id=<?= $burger['id']?>">Удалить</a></td>
         </tr>
     <?php endforeach ?>
     </tbody>
