@@ -61,8 +61,8 @@
             <td><?= $good['price'] ?></td>
             <td><?= $good['arcticle'] ?></td>
             <td><a href="/admin/goods/create.php">Добавить</a></td>
-            <td><a href="/admin/burgers/edit.php?id=<?= $burger['id']?>">Редактировать</a></td>
-            <td><a href="/admin/burgers/actions/delete.php?id=<?= $burger['id']?>">Удалить</a></td>
+            <td><a href="/admin/goods/edit.php?id=<?= $burger['id']?>">Редактировать</a></td>
+            <td><a href="/admin/goods/actions/delete.php?id=<?= $burger['id']?>">Удалить</a></td>
             <td><a href="/admin/addition">Добавить</a></td>
         </tr>
     <?php endforeach ?>
